@@ -5,10 +5,10 @@ export const ListArea = memo((props) => {
   const { messageList, onClickDelete } = props;
   return (
     <div className="listArea">
-      <ul id="messageList">
+      <ul id="messageList" >
         {messageList.map((list, index) => {
           return (
-            <li key={index} className="listLow">
+            <li key={index} className="listLow" style={{order: -index}}>
               <div class="box">
                 <div class="name">
                   {list.name}
