@@ -1,8 +1,8 @@
-import React, {memo} from "react";
+import React, { memo } from "react";
 import DeleteIcon from "@material-ui/icons/Delete";
 
 export const ListArea = memo((props) => {
-  const {messageList,onClickDelete} = props;
+  const { messageList, onClickDelete } = props;
   return (
     <div className="listArea">
       <ul id="messageList">

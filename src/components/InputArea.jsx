@@ -1,7 +1,7 @@
-import React,{memo} from "react";
+import React, { memo } from "react";
 
 export const InputArea = memo((props) => {
-  const {name,message,onChangeName,onChangeMessage,onClickAdd} = props;
+  const { name, message, onChangeName, onChangeMessage, onClickAdd } = props;
   return (
     <div className="inputArea">
       <h2>Open Chat</h2>
