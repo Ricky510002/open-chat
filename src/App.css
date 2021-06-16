@@ -1,0 +1,220 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #e0fbfc;
+}
+* {
+  box-sizing: border-box;
+}
+
+.inputArea {
+  background-color: #9db4c0;
+  width: 500px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+input {
+  width: 328px;
+  height: 40px;
+  margin: 10px;
+  padding: 6px 16px;
+  outline: 0;
+  border-radius: 5px;
+  border: none;
+}
+textarea {
+  margin: 10px;
+  padding: 6px 16px;
+  outline: 0;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  width: 75px;
+  height: 40px;
+  margin-left: 25px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ee7917;
+  font-family: "Comic Sans MS";
+}
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+}
+.listArea {
+  background-color: #9db4c0;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow: scroll;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 3px;
+  font-family: "Comic Sans MS";
+}
+
+.box {
+  margin: 3px;
+  background-color: #fff;
+  border: 2px solid #ee7917;
+  border-radius: 3px;
+  min-width: 400px;
+  max-width: 400px;
+  position: relative;
+}
+
+.name {
+  font-size: 13px;
+  /* background-color: #ffd3ae; */
+  color: #ee7917;
+  font-weight: bold;
+  border-radius: 0 0 2px 0;
+  padding: 4px;
+}
+
+.box p {
+  margin: 0;
+  padding: 0.2em 1em;
+  white-space: pre-wrap;
+}
+span {
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+span:hover {
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: black;
+  cursor: pointer;
+}
+
+.listLow {
+  display: flex;
+  align-items: center;
+}
+
+/* タブレットサイズ横長 */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .inputArea {
+    background-color: #9db4c0;
+    width: 500px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .listArea {
+    background-color: #9db4c0;
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 300px;
+    max-height: 500px;
+    overflow: scroll;
+  }
+}
+/* タブレットサイズ縦長 */
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .inputArea {
+    background-color: #9db4c0;
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .listArea {
+    background-color: #9db4c0;
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 300px;
+    max-height: 500px;
+    overflow: scroll;
+  }
+  input {
+    width: 230px;
+    height: 40px;
+    margin: 10px;
+    padding: 6px 16px;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+  }
+  textarea {
+    width: 250px;
+    margin: 10px;
+    padding: 6px 16px;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+  }
+  .box {
+    margin: 1em 0;
+    background-color: #fff;
+    border: 2px solid #ee7917;
+    min-width: 190px;
+    position: relative;
+  }
+}
+/* スマホサイズ */
+@media (max-width: 480px) {
+  .inputArea {
+    background-color: #9db4c0;
+    width: 85vw;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .listArea {
+    background-color: #9db4c0;
+    width: 85vw;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 300px;
+    max-height: 500px;
+    overflow: scroll;
+  }
+  input {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    padding: 6px 16px;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+  }
+  textarea {
+    width: 250px;
+    margin: 10px;
+    padding: 6px 16px;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+  }
+  .box {
+    margin: 1em 0;
+    background-color: #fff;
+    border: 2px solid #ee7917;
+    min-width: 220px;
+    position: relative;
+  }
+}
