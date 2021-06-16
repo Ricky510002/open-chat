@@ -101,7 +101,10 @@ span:hover {
   color: black;
   cursor: pointer;
 }
-
+ul{
+  display: flex;
+  flex-flow: column;
+}
 .listLow {
   display: flex;
   align-items: center;
