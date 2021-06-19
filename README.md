@@ -7,4 +7,4 @@
 
 ## Dependency
 - React 17.0.2
-- firebase 8.6.3(Realtime database)
+- firebase 8.6.3(Realtime database,Hosting)
